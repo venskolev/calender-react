@@ -1,11 +1,14 @@
+import React from 'react';
+import Calendar from './components/Calendar';
 
-
-function App() {
+const App = () => {
   return (
-    <>
-<h1>Hallo</h1>
-    </>
+    <div>
+      <h1>My Calendar App</h1>
+      <Calendar />
+      {/* Добавете други компоненти или функционалности тук */}
+    </div>
   );
-}
+};
 
 export default App;
